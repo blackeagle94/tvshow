@@ -40,13 +40,13 @@ const showsFetchingReducer = (state = initialState, action) => {
         case FETCH_SHOWS_SUCCESS:
             return {
                 loading: false,
-                films: action.payload,
+                data: [...state.data, action.payload],
                 error: ''
             }
         case FETCH_SHOWS_FAILURE:
             return {
                 loading: false,
-                films: [],
+                data: [],
                 error: action.payload
             }
         default:

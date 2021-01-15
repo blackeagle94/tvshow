@@ -40,13 +40,13 @@ const episodesFetchingReducer = (state = initialState, action) => {
         case FETCH_Episodes_SUCCESS:
             return {
                 loading: false,
-                films: action.payload,
+                data:  action.payload,
                 error: ''
             }
         case FETCH_Episodes_FAILURE:
             return {
                 loading: false,
-                films: [],
+                data: [],
                 error: action.payload
             }
         default:

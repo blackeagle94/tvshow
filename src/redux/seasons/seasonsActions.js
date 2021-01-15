@@ -40,13 +40,13 @@ const seasonsFetchingReducer = (state = initialState, action) => {
         case FETCH_Seasons_SUCCESS:
             return {
                 loading: false,
-                films: action.payload,
+                data:  action.payload,
                 error: ''
             }
         case FETCH_Seasons_FAILURE:
             return {
                 loading: false,
-                films: [],
+                data: [],
                 error: action.payload
             }
         default:

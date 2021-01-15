@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 .App {
   text-align: center;
+  background: rgb(12,9,121);
+  background: radial-gradient(circle, rgba(12,9,121,0.9556197478991597) 12%, rgba(2,0,36,0.9472163865546218) 70%, rgba(34,0,255,0.865983893557423) 96%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 16%, 0% 100%); */
+ 
+}
+
+.home {
+  height: 100px;
+  width: 100%;
+  /* background: rgb(12,9,121);
+background: radial-gradient(circle, rgba(12,9,121,0.9556197478991597) 12%, rgba(2,0,36,0.9472163865546218) 70%, rgba(34,0,255,0.865983893557423) 96%) */
+}
+
+.home h1 {
+  color: white;
+  font-family: 'Dancing Script', cursive
 }
 
 .App-logo {
@@ -36,3 +53,4 @@
     transform: rotate(360deg);
   }
 }
+

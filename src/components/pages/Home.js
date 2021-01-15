@@ -2,8 +2,8 @@ import React from 'react'
 
 function Home() {
     return (
-        <div>
-            
+        <div className="home">
+            <h1>Welcome to Tv Show Paradise</h1>
         </div>
     )
 }
