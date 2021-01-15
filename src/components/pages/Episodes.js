@@ -7,8 +7,8 @@ function Episodes(props) {
 	return (
 		<div>
 			<div className="d-flex justify-content-around">
+			<Link to="/"><button className="btn btn-light">Home Page</button></Link>
 				<Link to="/seasons"><button className="btn btn-light">Go Back to Seasons</button></Link>
-				<Link to="/"><button className="btn btn-light">Home Page</button></Link>
 			</div>
 			<div class="row row-cols-1 row-cols-md-3 g-4">
 				{props.episodes ? props.episodes.map((film) => {

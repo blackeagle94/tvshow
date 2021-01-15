@@ -9,7 +9,7 @@ const Seasons = (props) => {
 	return (
 		<div>
 		<div>
-				<Link to="/"><button className="btn btn-light">Go Back</button></Link>
+				<Link to="/search"><button className="btn btn-light">Go Back</button></Link>
 			</div>
 			<div class="row row-cols-1 row-cols-md-4 g-4">
 				{seasons.map((film) => 

@@ -15,9 +15,9 @@ class Shows extends Component {
 	render() {
 		return (
 			<div>
-				<div className="container d-flex justify-content-around">
+				<div className="d-flex justify-content-center">
                     <div className="col"><Link to="/"><button className="btn btn-info">Home Page</button></Link></div>
-					<div className="d-flex"><input id="input" className="input-group" type="text" placeholder="Search your favorite show..."/>
+					<div className="d-flex col"><input id="input" className="input-group" type="text" placeholder="Search your favorite show..."/>
 					<button onClick={this.onClick} className="btn btn-secondary">Search</button></div>
 				</div>
 				<div className="row row-cols-1 row-cols-md-4 g-4">
