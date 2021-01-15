@@ -16,7 +16,7 @@ class Shows extends Component {
 		return (
 			<div>
 				<div className="d-flex justify-content-center">
-                    <div className="col"><Link to="/"><button className="btn btn-info">Home Page</button></Link></div>
+                    <div className="col"><Link to="/tvshow"><button className="btn btn-info">Home Page</button></Link></div>
 					<div className="d-flex col"><input id="input" className="input-group" type="text" placeholder="Search your favorite show..."/>
 					<button onClick={this.onClick} className="btn btn-secondary">Search</button></div>
 				</div>
@@ -47,7 +47,7 @@ class Shows extends Component {
 													this.props.fetchSeasons(
 														`http://api.tvmaze.com/shows/${film.show.id}/seasons`
 													)}
-												to="/seasons"
+												to="/tvshow/seasons"
 											>
 												
 													Show more

@@ -10,12 +10,12 @@ import Shows from './components/pages/Shows';
 function App() {
   return (
     <div className="App">
-            <Home />
+                    <Home />
       <Switch>
-        <Route exact path="/"><Shows /></Route>
-        <Route exact path="/seasons"> <Seasons/> </Route>
-        <Route path="/seasons/episodes"> <Episodes /> </Route>
-        <Route path="/search"> <Search /> </Route>
+        <Route exact path="/tvshow"><Shows /></Route>
+        <Route exact path="/tvshow/seasons"> <Seasons/> </Route>
+        <Route path="/tvshow/seasons/episodes"> <Episodes /> </Route>
+        <Route path="/tvshow/search"> <Search /> </Route>
       </Switch>
     </div>
   );

@@ -9,7 +9,7 @@ const Seasons = (props) => {
 	return (
 		<div>
 		<div>
-				<Link to="/search"><button className="btn btn-light">Go Back</button></Link>
+				<Link to="/tvshow/search"><button className="btn btn-light">Go Back</button></Link>
 			</div>
 			<div class="row row-cols-1 row-cols-md-4 g-4">
 				{seasons.map((film) => 
@@ -27,7 +27,7 @@ const Seasons = (props) => {
 								<p class="card-text">
 									{summary}
 								</p>
-                                <Link id={film.id} onClick={(e) => dispatch(fetchEpisodes(`http://api.tvmaze.com/seasons/${e.target.id}/episodes`))} to="/seasons/episodes" className="btn btn-primary">Episodes</Link>
+                                <Link id={film.id} onClick={(e) => dispatch(fetchEpisodes(`http://api.tvmaze.com/seasons/${e.target.id}/episodes`))} to="/tvshow/seasons/episodes" className="btn btn-primary">Episodes</Link>
 							</div>
 						</div>
 					</div>}
