@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tvshow/static/css/main.fa5633d1.chunk.css",
+    "main.js": "/tvshow/static/js/main.388b170e.chunk.js",
+    "main.js.map": "/tvshow/static/js/main.388b170e.chunk.js.map",
+    "runtime-main.js": "/tvshow/static/js/runtime-main.eede5ec1.js",
+    "runtime-main.js.map": "/tvshow/static/js/runtime-main.eede5ec1.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/tvshow/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.b7d3ec58.chunk.js": "/tvshow/static/js/2.b7d3ec58.chunk.js",
+    "static/js/2.b7d3ec58.chunk.js.map": "/tvshow/static/js/2.b7d3ec58.chunk.js.map",
+    "static/js/3.5ff65893.chunk.js": "/tvshow/static/js/3.5ff65893.chunk.js",
+    "static/js/3.5ff65893.chunk.js.map": "/tvshow/static/js/3.5ff65893.chunk.js.map",
+    "index.html": "/tvshow/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/tvshow/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.fa5633d1.chunk.css.map": "/tvshow/static/css/main.fa5633d1.chunk.css.map",
+    "static/js/2.b7d3ec58.chunk.js.LICENSE.txt": "/tvshow/static/js/2.b7d3ec58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eede5ec1.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.b7d3ec58.chunk.js",
+    "static/css/main.fa5633d1.chunk.css",
+    "static/js/main.388b170e.chunk.js"
+  ]
+}
